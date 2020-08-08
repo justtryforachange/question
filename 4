@@ -1,0 +1,18 @@
+Given a number N, figure out if it is a member of fibonacci series or not. Return true if the number is member of fibonacci series else false.
+
+Fibonacci Series is defined by the recurrence
+
+#code
+
+import math
+
+def Square(x):
+    s = int(math.sqrt(x))
+    return s*s == x
+def checkMember(n):
+    return Square(5*n*n + 4) or Square(5*n*n - 4)
+n=int(input())
+if(checkMember(n)==True):
+    print("true")
+else:
+    print("false")
