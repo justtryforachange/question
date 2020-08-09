@@ -1,0 +1,16 @@
+Q-Given a string S, remove consecutive duplicates from it recursively.
+
+#code
+
+def removeConsecutiveDuplicates(n):
+    str=""
+    str=str+n[0]
+    j=0
+    for i in range (1,len(n)):
+        if (str[j] != n[i]):
+            str=str+n[i]
+            j=j+1
+    return str
+
+string= input().strip()
+print(removeConsecutiveDuplicates(string))
