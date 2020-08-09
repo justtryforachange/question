@@ -13,4 +13,5 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
    Return true if the number is member of fibonacci series else false.
 
    Fibonacci Series is defined by the recurrence
-5)-Given a string S, remove consecutive duplicates from it recursively.
+   
+6)-Given a string S, remove consecutive duplicates from it recursively.
