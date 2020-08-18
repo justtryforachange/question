@@ -12,7 +12,8 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 4)-Given a number N, figure out if it is a member of fibonacci series or not.
    Return true if the number is member of fibonacci series else false.
 
-   Fibonacci Series is defined by the recurrence
+   Fibonacci Series is defined by the recurrence.
+
  5)-You are given S a sequence of n integers i.e. S = s1, s2, ..., sn. Compute if it is possible to split S into two parts : s1, s2, ..., si and si+1, si+2, ….., sn (0 <= i <= n)     in such a way that the first part is strictly decreasing while the second is strictly increasing one.
    Note : We say that x is strictly larger than y when x > y.
    So, a strictly increasing sequence can be 1 4 8. However, 1 4 4 is NOT a strictly increasing sequence.
