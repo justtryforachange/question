@@ -1,0 +1,48 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+ int main(){
+     int num,a,i=1,b,c;
+     cin >>num>>a;
+     bool dec=true;
+     bool inc=false;
+     while(i<=num-1){
+     cin >>b;
+     i++;
+        if(a>b){
+            a=b;
+            dec=true;
+           }
+        else if(a==b){
+            dec=false;
+            break;
+        }else{
+            dec= false;
+            inc=true;
+            a=b;
+            
+            break;
+        }}
+    while(i<=num-1){
+            i++;
+            cin>>b;
+        if(a==b){
+            inc=false;
+            break;
+        }
+        else if(a<b){
+            inc=true;
+            a=b;
+        }else{
+        inc=false;
+        break;
+        }
+    }
+
+  if(dec==true){cout<<"true ";}
+  else if(inc==true){cout<<"true ";}
+  else if(inc==false){cout<<"false";}
+     }
+
+
